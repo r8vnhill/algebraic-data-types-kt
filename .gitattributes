@@ -1,0 +1,19 @@
+# --- Scripts ---
+/gradlew            text eol=lf
+/gradlew.bat        text eol=crlf
+*.sh                text eol=lf
+*.bat               text eol=crlf
+
+# --- Gradle Wrapper ---
+/gradle/wrapper/gradle-wrapper.properties text eol=lf
+/gradle/wrapper/gradle-wrapper.jar        binary
+
+# --- Binaries ---
+*.jar               binary
+*.class             binary
+
+# --- Source files ---
+*.kt                text eol=lf
+*.kts               text eol=lf
+*.java              text eol=lf
+*.scala             text eol=lf

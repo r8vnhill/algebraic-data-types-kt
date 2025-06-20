@@ -1,0 +1,38 @@
+### Gradle ###
+.gradle/
+build/
+*/build/
+out/
+
+### IntelliJ IDEA ###
+.idea/
+.idea_modules/
+*.iws
+*.iml
+*.ipr
+
+# Exclude project-specific settings
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/httpRequests/
+
+### Logs ###
+*.log
+hs_err_pid*
+replay_pid*
+
+### Binaries ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Misc ###
+.mtj.tmp/
+.project
+.classpath
