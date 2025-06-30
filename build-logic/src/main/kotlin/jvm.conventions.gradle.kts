@@ -3,9 +3,13 @@ plugins {
     kotlin("jvm")
 }
 
-java {
-    toolchain {
+kotlin {
+    jvmToolchain {
         // Configure the Java toolchain to use Java 21 for compiling Kotlin/JVM code
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+
+    compilerOptions {
+        freeCompilerArgs.add("-Xcontext-sensitive-resolution")
     }
 }
