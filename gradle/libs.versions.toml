@@ -1,7 +1,8 @@
 [versions]
-kotlin = "2.1.21"
+# Define a version alias for Kotlin to keep version numbers centralized
+kotlin = "2.2.0"
 
 [libraries]
-
-[plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+# Define a dependency alias for the Kotlin Gradle plugin
+# This uses the version referenced above with `version.ref`
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }

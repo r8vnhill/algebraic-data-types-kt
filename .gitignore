@@ -1,38 +1,102 @@
-### Gradle ###
+### ──────────────────────────────
+### 🛠️ Gradle
+### ──────────────────────────────
 .gradle/
+**/build/
 build/
-*/build/
-out/
+gradle-app.setting
+.gradletasknamecache
 
-### IntelliJ IDEA ###
+# Allow wrapper files
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+### ──────────────────────────────
+### 🧠 IntelliJ IDEA
+### ──────────────────────────────
 .idea/
-.idea_modules/
 *.iws
 *.iml
 *.ipr
 
-# Exclude project-specific settings
+# Project-specific settings (keep project configs clean)
 .idea/**/workspace.xml
 .idea/**/tasks.xml
-.idea/**/dictionaries
-.idea/**/shelf
+.idea/**/dictionaries/
+.idea/**/shelf/
 .idea/**/httpRequests/
 
-### Logs ###
-*.log
-hs_err_pid*
-replay_pid*
-
-### Binaries ###
+### ──────────────────────────────
+### 🧪 Kotlin / Java
+### ──────────────────────────────
 *.class
 *.jar
 *.war
 *.ear
+*.nar
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+*.stackdump
+
+### ──────────────────────────────
+### 📦 Archives / Bundles
+### ──────────────────────────────
 *.zip
 *.tar.gz
 *.rar
+*.msi
+*.msix
+*.cab
+*.msm
+*.msp
 
-### Misc ###
+### ──────────────────────────────
+### 💻 OS: Windows
+### ──────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### ──────────────────────────────
+### 🍎 OS: macOS
+### ──────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### ──────────────────────────────
+### 🐧 OS: Linux / Unix
+### ──────────────────────────────
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### ──────────────────────────────
+### 🔧 Miscellaneous
+### ──────────────────────────────
 .mtj.tmp/
 .project
 .classpath
+out/
