@@ -2,84 +2,69 @@
 
 ![Kotlin](https://img.shields.io/badge/kotlin-2.2.0-7F52FF?logo=kotlin)
 ![Gradle](https://img.shields.io/badge/build%20tool-gradle-02303A?logo=gradle)
-![License](https://img.shields.io/badge/license-BSD--2--Clause-blue.svg)
+[![License](https://img.shields.io/badge/license-BSD--2--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
 ![Platform](https://img.shields.io/badge/platform-JVM-orange)
-![Status](https://img.shields.io/badge/status-educational-lightgrey)
+[![Educational](https://img.shields.io/badge/purpose-educational-yellow)](https://dibs.ravenhill.cl)
+[![Status](https://img.shields.io/badge/status-stable-brightgreen)]()
+[![DIBS Site](https://img.shields.io/badge/website-dibs.ravenhill.cl-purple)](https://dibs.ravenhill.cl)
 
 This repository accompanies the lessons on algebraic data types from the **DIBS** course (Design and Implementation of Software Libraries).
 
 It includes runnable Kotlin examples demonstrating how to model both **product types** (with `data class`) and **sum types** (with `enum class`) in idiomatic and safe ways.
 
 >[!note]
-> The lessons are in Spanish, but the code examples and project structure are in English.
+> While the course is taught in Spanish, **all code and project content is in English** to encourage accessibility and reuse.
+
+## 📖 Table of Contents
+
+- [📦 Algebraic Data Types in Kotlin](#-algebraic-data-types-in-kotlin)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [🎓 Related Lessons](#-related-lessons)
+  - [🧑‍💻 Getting Started](#-getting-started)
+    - [Requirements](#requirements)
+    - [Clone the Repository](#clone-the-repository)
+  - [🛡️ License](#️-license)
+  - [🌐 DIBS Website](#-dibs-website)
+
+
+## 🎓 Related Lessons
+
+Explore the full lessons on the DIBS course site:
+
+* 📄 [Product types with `data class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/records-2/kt/)
+* 📄 [Sum types with `enum class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/enums/kt/)
+* 📄 [Advanced modeling with enumerations](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/idiom-enum/kt)
+
+Each lesson includes motivation, idiomatic use cases, and annotated code examples designed to help you apply ADTs in real Kotlin libraries.
+
+More lessons will be linked as the course progresses.
 
 ## 🧑‍💻 Getting Started
 
 ### Requirements
 
 - Java 11 or newer
-- [Gradle](https://gradle.org/) (optional, a wrapper is included)
-- An IDE like [IntelliJ IDEA](https://www.jetbrains.com/idea/) is recommended
+- [Gradle](https://gradle.org/) (optional — a wrapper is included)
+- Recommended: [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-### Clone the repository
+> For installation help, see the [setup guide](https://dibs.ravenhill.cl/docs/installation).
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/r8vnhill/algebraic-data-types-kt.git
 cd algebraic-data-types-kt
 ```
+## 🛡️ License
 
-## ✨ What You’ll Learn
+This project is licensed under the **[BSD 2-Clause License](./LICENSE)**.
 
-This repository contains practical examples for:
+You may use, adapt, and share this code freely for personal, academic, or educational purposes, as long as attribution is given.
 
-### 🧩 Product Types with `data class`
+## 🌐 DIBS Website
 
-* ✅ Idiomatic data modeling using `data class`
-* 🧪 Destructuring instances for readable iteration and filtering
-* ♻️ Immutable updates via `copy`
-* 🔄 Controlled mutability when needed
-* 📦 Choosing between `data class`, regular `class`, and tuples (`Pair`, `Triple`)
-* 🧠 Including derived properties and helper functions
-* 🏗️ Using secondary constructors and default parameters
-* 🧰 Domain modeling with internal validation
-* 📁 Practical exercise: managing internal dependency metadata
+The full course — *Diseño e Implementación de Bibliotecas de Software* — is available at:
 
-### ➕ Sum Types with `enum class`
+👉 [https://dibs.ravenhill.cl](https://dibs.ravenhill.cl)
 
-* 🔢 Modeling sum types as closed sets of alternatives
-* 🧱 Representing finite states, modes, or outcomes (e.g., `CONNECTED`, `DISCONNECTED`, `IN_PROGRESS`)
-* ✅ Compile-time safety with `when` exhaustiveness checking
-* 🧭 Avoiding fragile code based on strings or magic constants
-* 🆕 Improved syntax with context-sensitive resolution (Kotlin 2.2+)
-
-## 🧠 Background
-
-Algebraic data types (ADTs) are central to type-safe, maintainable library design. Kotlin provides two powerful constructs to model them:
-
-* `data class` for **product types** – grouping multiple values together with structure and semantics.
-* `enum class` for **sum types** – representing a fixed set of mutually exclusive alternatives.
-
-These constructs enable readable, expressive, and compiler-verified code, especially when modeling domain-specific types.
-
-## 📘 Related Lessons
-
-Explore the full lessons on the DIBS course site:
-
-* 📄 [Product types with `data class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/records-2/kt/)
-* 📄 [Sum types with `enum class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/enums/kt/)
-
-Each lesson includes motivation, idiomatic use cases, and annotated code examples designed to help you apply ADTs in real Kotlin libraries.
-
-## 🤝 Contributing
-
-This repository is primarily educational and not actively maintained as a collaborative project.  
-However, if you spot a mistake, want to suggest an improvement, or have a question:
-
-- Feel free to [open an issue](https://github.com/r8vnhill/algebraic-data-types-kt/issues).
-- Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a respectful and inclusive space.
-
-You're also welcome to fork the project and adapt it for your own learning or teaching purposes!
-
-## 🛠 License
-
-This project is licensed under the [BSD 2-Clause License](LICENSE).
+There you'll find complete lessons, slides, exercises, and complementary resources (in Spanish).
