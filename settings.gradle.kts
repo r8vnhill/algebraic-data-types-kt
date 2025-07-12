@@ -19,4 +19,5 @@ rootProject.name = "algebraic-data-types-kt"
 
 // Include subprojects (modules) in the build
 include("product")
-include("sum")
+include("sum:enum")
+include("sum:sealed")

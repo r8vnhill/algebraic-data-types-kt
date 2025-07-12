@@ -10,6 +10,7 @@ kotlin {
     }
 
     compilerOptions {
+        // Enable context-sensitive resolution for cleaner `when` expressions on enumerations
         freeCompilerArgs.add("-Xcontext-sensitive-resolution")
     }
 }

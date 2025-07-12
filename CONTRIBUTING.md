@@ -5,6 +5,6 @@ welcome!
 
 ## How to Contribute
 
-1. [Open an issue](https://gitlab.com/r8vnhill/algebraic-data-types-kt/-/issues) to suggest improvements or report errors.
+1. [Open an issue](https://gitlab.com/r8vnhill/algebraic-data-types-kt/-/issueTs) to suggest improvements or report errors.
 2. Follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 3. Fork this repo and submit a pull request.
