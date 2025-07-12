@@ -10,7 +10,7 @@
 
 This repository accompanies the lessons on algebraic data types from the **DIBS** course (Design and Implementation of Software Libraries).
 
-It includes runnable Kotlin examples demonstrating how to model both **product types** (with `data class`) and **sum types** (with `enum class`) in idiomatic and safe ways.
+It includes runnable Kotlin examples demonstrating how to model both **product types** (with `data class`) and **sum types** (with `enum class` and `sealed`) in idiomatic and safe ways.
 
 >[!note]
 > While the course is taught in Spanish, **all code and project content is in English** to encourage accessibility and reuse.
@@ -34,6 +34,7 @@ Explore the full lessons on the DIBS course site:
 * 📄 [Product types with `data class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/records-2/kt/)
 * 📄 [Sum types with `enum class`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/enums/kt/)
 * 📄 [Advanced modeling with enumerations](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/idiom-enum/kt)
+* 📄 [Sum types with `sealed interface`](https://dibs.ravenhill.cl/docs/type-fundamentals/algebraic-data-types/sealed-interfaces/kt)
 
 Each lesson includes motivation, idiomatic use cases, and annotated code examples designed to help you apply ADTs in real Kotlin libraries.
 
